@@ -58,4 +58,4 @@ All assets will be packed into the distribution.
 
 ## License
 
-see LICENCE file for details.
+see `LICENCE` file for details.
