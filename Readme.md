@@ -42,6 +42,10 @@ the project starts in full screen mode.
 
 Store assets in the designated 'assets' folder. The project already contains a sample graphic file. In the `main.cpp` file, this image is loaded and displayed.
 
+### Choose a different raylib version
+
+Which raylib version is used can be specified in the `cmake/raylib.cmake` file. If this is changed after CMake has already created the project once, you must use CMake to completely rebuild the project.
+
 ### What next?
 
 Modify the `main.cpp` file according to your needs.
