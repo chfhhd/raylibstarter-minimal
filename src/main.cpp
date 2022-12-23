@@ -9,7 +9,6 @@
 int main() {
     // Raylib initialization
     // Project name, screen size, fullscreen mode etc. can be specified in the config.h.in file
-        //Why do we do this outside the main anyway?
     InitWindow(Game::ScreenWidth, Game::ScreenHeight, Game::PROJECT_NAME);
     SetTargetFPS(60); //Target FPS limits the frame rate, otherwise the game would run as fast as it could.
     // You will generally have an easier time programming with a frame limitation.
