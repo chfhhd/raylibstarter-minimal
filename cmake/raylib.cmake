@@ -1,7 +1,7 @@
 # Based on: https://raw.githubusercontent.com/raysan5/raylib/master/projects/CMake/CMakeLists.txt
 
 # Set this to the minimal version you want to support
-find_package(raylib 4.0.0 QUIET) # Let CMake search for a raylib-config.cmake
+find_package(raylib 4.2.0 QUIET) # Let CMake search for a raylib-config.cmake
 
 # You could change the QUIET above to REQUIRED and remove this if() clause
 # This part downloads raylib and builds it if it's not installed on your system
