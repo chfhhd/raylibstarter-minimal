@@ -1,4 +1,4 @@
-﻿#include <cstdlib> //Some basic functions, including sine and cosine
+﻿#include <cstdlib>
 
 #include "raylib.h" //Raylib. Without this everything will crash and burn.
 
