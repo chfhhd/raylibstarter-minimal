@@ -10,7 +10,7 @@
 
 # raylibstarter - minimal edition
 
-[![CMakeBuilds](https://github.com/chfhhd/raylibstarter-minimal/actions/workflows/cmake.yml/badge.svg)](https://github.com/chfhhd/raylibstarter/actions/workflows/cmake.yml)
+[![CMakeBuilds](https://github.com/chfhhd/raylibstarter-minimal/actions/workflows/cmake.yml/badge.svg)](https://github.com/chfhhd/raylibstarter-minimal/actions/workflows/cmake.yml)
 
 A simple raylib project template for CMake and C/C++
 
