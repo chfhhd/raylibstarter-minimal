@@ -16,8 +16,17 @@ target_include_directories(${PROJECT_NAME} PUBLIC
         "${PROJECT_BINARY_DIR}"
         )
 
-#  Link to Raylib
-target_link_libraries(${PROJECT_NAME} raylib -static)
+# Link to Raylib
+# Static linking may be interesting, especially under Windows with MinGW,
+# so that the MinGW DLLs do not have to be supplied.
+# (Unfortunately, there is no easy way to link the C++ standard libraries
+# statically and other libraries dynamically.)
+if(UNIX)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -static-libgcc -static-libstdc++")
+    target_link_libraries(${PROJECT_NAME} raylib)
+else()
+    target_link_libraries(${PROJECT_NAME} raylib -static)
+endif()
 
 # Copy assets to assets path
 add_custom_target(copy_assets
